@@ -1,0 +1,734 @@
+== Awesome Haskell https://github.com/sindresorhus/awesome[image:https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome]]
+
+An auxiliary list of awesome Haskell links, frameworks, libraries and
+software. The part of the
+https://github.com/sindresorhus/awesome[awesome] projects line.
+
+* link:#awesome-haskell[Awesome Haskell]
+** link:#basics[_Basics_]
+** link:#algorithmics[Algorithmics]
+** link:++#audio-music--sound++[Audio&#44; Music & Sound]
+** link:#category-theory[Category Theory]
+** link:#compilers[Compilers]
+** link:++#concurrency--parallelism++[Concurrency & Parallelism]
+** link:#configuration[Configuration]
+** link:++#cryptography--hashing++[Cryptography & Hashing]
+** link:#data-access[Data Access]
+** link:#data-formats[Data Formats]
+** link:#data-science[Data Science]
+** link:#data-structures[Data Structures]
+** link:#database[Database]
+** link:#development-tools[Development Tools]
+** link:#documentation[Documentation]
+** link:#distributed-computing[Distributed Computing]
+** link:#editors[Editors]
+** link:#extensions[Extensions]
+** link:#games[Games]
+** link:#gui[GUI]
+** link:#graphics[Graphics]
+** link:#network[Network]
+** link:#number-theory[Number Theory]
+** link:++#web--frameworks++[Web / Frameworks]
+** link:#text-processing[Text Processing]
+** link:#messaging[Messaging]
+** link:#languages[Languages]
+** link:#operating-systems[Operating Systems]
+** link:#platforms[Platforms]
+** link:#programming[Programming]
+** link:#science[Science]
+** link:#streaming-processing[Streaming Processing]
+* link:#resources[Resources]
+** link:#websites[Websites]
+** link:#bloggers[Bloggers] +
+** link:#community[Community]
+** link:#tutorials[Tutorials]
+** link:#courses[Courses]
+** link:#conferences[Conferences]
+** link:#packages[Packages]
+* link:#license[License]
+
+=== _Basics_
+
+* https://www.haskell.org/alex/[Alex] - a lexical analyser generator for
+Haskell.
+* https://www.haskell.org/cabal/[Cabal] - a system for building and
+packaging Haskell libraries and programs.
+* https://www.haskell.org/ghc/[GHC] - the state-of-the-art optimizing
+native code compiler for Haskell.
+* https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html[GHCi]
+- a bytecode interpreter and interactive REPL environment for Haskell.
+* https://www.haskell.org/ghcup[GHCup] - GHCup is the main installer for
+the general purpose language Haskell.
+* http://hackage.haskell.org/[Hackage] - the Haskell community’s central
+package archive.
+* https://www.haskell.org/haddock/[Haddock] - a tool for automatically
+generating documentation from annotated Haskell source code.
+* https://www.haskell.org/happy/[Happy] - The Parser Generator for
+Haskell.
+* http://hayoo.fh-wedel.de/[Hayoo] - will search all packages from
+Hackage, including all function and type definitions.
+* https://www.haskell.org/hoogle/[Hoogle] - a Haskell API search engine,
+which allows you to search many standard Haskell libraries by either
+function name, or by approximate type signature.
+* https://github.com/Paczesiowa/hsenv/[hsenv] - a tool to create
+isolated Haskell environments. This allows a project to use a GHC
+version different of the currently installed.
+* https://github.com/commercialhaskell/stack[Stack] - a cross-platform
+tool to help on building Haskell projects. It includes support to create
+isolated Haskell environments and to automatically manage the
+dependencies of a project.
+* https://github.com/fpco/stackage[Stackage] - "`Stable Hackage,`" tools
+for creating a vetted set of packages from Hackage.
+
+=== Algorithmics
+
+* https://wiki.haskell.org/Applications_and_libraries/Theorem_provers[Theorem
+Provers] - Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Algorithm[Algorithm] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Algorithm%20Visualization[Algorithm
+Visualization] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Algorithms[Algorithms] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Compression[Compression] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Formal%20Languages[Formal
+Languages] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Formal%20Methods[Formal
+Methods] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Logic[Logic] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Logic%20Programming[Logic
+Programming] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:MapReduce[Map Reduce] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Graphs[Graphs] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Optimization[Optimization] -
+a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Simulation[Simulation] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:SMT[SMT] - a collaborative
+Hackage list for Satisfiability Modulo Theories (SMT).
+* http://hackage.haskell.org/packages/#cat:Symbolic%20Computation[Symbolic
+Computation] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Theorem%20Provers[Theorem
+Provers] - a collaborative Hackage list.
+
+=== Audio, Music & Sound
+
+* https://wiki.haskell.org/Applications_and_libraries/Music_and_sound[Audio&#44;
+music and sound] - official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Audio[Audio] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Codec[Codec] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Graphics[Graphics] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Media[Media] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Music[Music] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Sound[Sound] - a
+collaborative Hackage list.
+
+=== Category Theory
+
+* http://hackage.haskell.org/packages/#cat:Adjunctions[Adjunctions] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Algebra[Algebra] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Categories[Categories] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Combinators[Combinators] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Comonads[Comonads] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Composition[Composition] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Computer%20Algebra[Computer
+Algebra] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Constraints[Constraints] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Functors[Functors] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Monad[Monad] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Monads[Monads] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Semigroups[Semigroups] - a
+collaborative Hackage list.
+
+=== Compilers
+
+* https://wiki.haskell.org/Applications_and_libraries/Compilers_and_interpreters[Compilers
+& Interpreters] - Official Website Resources.
+* https://wiki.haskell.org/Applications_and_libraries/Compiler_tools[Compiler
+construction&#44; lexing&#44; parsing&#44; pretty printing] - Official
+Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Compiler[Compiler] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Compiler%20Plugin[Compiler
+Plugin] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Compilers/Interpreters[Compilers/Interpreters]
+- a collaborative Hackage list.
+
+=== Concurrency & Parallelism
+
+* https://wiki.haskell.org/Applications_and_libraries/Concurrency_and_parallelism[Concurrency
+& Parallelism] - Official Website Info.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Concurrency[Concurrency] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Concurrent[Concurrent] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:FRP[Functional Reactive
+Programming] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Parallelism[Parallelism] - a
+collaborative Hackage list.
++
+
+'''''
+* http://chimera.labs.oreilly.com/books/1230000000929/index.html[Concurrency
+& Parallelism] - (Book) Parallel and Concurrent Programming in Haskell
+
+=== Configuration
+
+* http://hackage.haskell.org/package/deiko-config[Deiko-config] - small
+typesafe library that uses
+https://github.com/lightbend/config#features-of-hocon[HOCON] config
+format
+* https://github.com/dhall-lang/dhall-haskell[Dhall] - A configuration
+language guaranteed to terminate
+* http://hackage.haskell.org/package/configurator[Configurator] - A
+configuration management library which supports automatic, dynamic
+reloading in response to modifications to configuration files.
+
+=== Cryptography & Hashing
+
+* https://wiki.haskell.org/Applications_and_libraries/Cryptography[Cryptography
+& Hashing] - Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Crypto[Crypto] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Cryptography[Cryptography] -
+a collaborative Hackage list.
+
+=== Data Access
+
+* https://github.com/facebook/Haxl[Haxl] - a library for efficient,
+concurrent, concise data access.
+
+=== Data Formats
+
+* http://hackage.haskell.org/packages/#cat:JSON[JSON] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:PDF[PDF] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:XML[XML] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:RSS[RSS] - a collaborative
+Hackage list.
+
+=== Data Science
+
+* https://wiki.haskell.org/Applications_and_libraries/Linguistics[Linguistics
+and natural language processing] - Official Website Resources.
+* https://wiki.haskell.org/Applications_and_libraries/Robotics[Robotics]
+- Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:AI[Artificial Intelligence] -
+a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Argumentation[Argumentations]
+- a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Classification[Classification]
+- a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Clustering[Clustering] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Data%20Mining[Data Mining] -
+a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Datamining[Datamining] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Image%20Processing[Image
+Processing] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Machine%20Learning[Machine
+Learning] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Machine%20Vision[Machine
+Vision] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Natural%20Language%20Processing[Natural
+Language Processing] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Pattern%20Classification[Pattern
+Classification] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Pattern%20Recognition[Pattern
+Recognition] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Search[Search] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Statistics[Statistics] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Text%20Recognition[Text
+Recognition] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Robotics[Robotics] - a
+collaborative Hackage list.
++
+
+'''''
++
+_Additional libraries_
+* https://github.com/BayesWitnesses/m2cgen[m2cgen] - A CLI tool to
+transpile trained classic ML models into a native Haskell code with zero
+dependencies.
+
+=== Data Structures
+
+* https://wiki.haskell.org/Applications_and_libraries/Data_structures[Data
+Structures & IO Libraries] - Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Structures[Advanced
+Structures] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Bit%20Vectors[Bit Vectors] -
+a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Containers[Containers] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Data%20Structures[Data
+Structures] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Enumerator[Enumerator] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Generics[Generics] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:List[List] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:Tree[Tree] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:Vector[Vector] - a
+collaborative Hackage list.
+
+=== Database
+
+* https://wiki.haskell.org/Applications_and_libraries/Database_interfaces[Database
+Interfaces] - Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Database[Database] - a
+collaborative Hackage list.
+
+=== Development Tools
+
+* https://wiki.haskell.org/Development_Libraries_and_Tools[Development
+Libraries and Tools] - Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Debug[Debug] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:IDE[IDE] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:Test[Test] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:Testing[Testing] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Logging[Logging] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:CLI%20Tool[CLI Tool] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Monitoring[Monitoring] - a
+collaborative Hackage list.
+
+=== Distributed Computing
+
+* http://hackage.haskell.org/packages/#cat:Distributed%20Computing[Distributed
+Computing] - a collaborative Hackage list.
++
+
+'''''
+* http://haskell-distributed.github.io/[Cloud Haskell] - concurrent and
+distributed programming in Haskell.
+
+=== Documentation
+
+* http://hackage.haskell.org/packages/#cat:Documentation[Documentation]
+- a collaborative Hackage list.
+
+=== Editors
+
+* https://wiki.haskell.org/Applications_and_libraries/Editors[Editors
+written in Haskell] - Official Website Resources.
+* https://wiki.haskell.org/Editors[editors for Haskell] - Official
+Website Resources.
+
+=== Extensions
+
+* https://wiki.haskell.org/Applications_and_libraries/Extended_Haskell[Extended
+Haskell] - Official Website Resources.
+
+=== Games
+
+* https://wiki.haskell.org/Applications_and_libraries/Games[Games] -
+Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Game[Game] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:Game%20Engine[Game Engine] -
+a collaborative Hackage list.
+
+=== GUI
+
+* https://wiki.haskell.org/Applications_and_libraries/GUI_libraries[Graphical
+User Interface (GUI) Libraries] - Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:GUI[GUI] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:User%20Interfaces[User
+Interfaces] - a collaborative Hackage list.
+
+=== Graphics
+
+* https://wiki.haskell.org/Applications_and_libraries/Graphics[Graphics]
+- Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Graphics[Graphics] - a
+collaborative Hackage list.
+
+=== Network
+
+* https://wiki.haskell.org/Applications_and_libraries/Network[Network] -
+Official Website Resources
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Network[Network] - a
+collaborative Hackage list.
+
+=== Number Theory
+
+* http://hackage.haskell.org/packages/#cat:Number%20Theory[Number
+Theory] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Numeric[Numeric] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Numerical[Numerical] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Math[Math] - a collaborative
+Hackage list.
+
+=== Web / Frameworks
+
+* https://wiki.haskell.org/Web/Servers[Web Servers] - Official Website
+Resources.
+* https://wiki.haskell.org/Web/Frameworks[Web Frameworks] - Official
+Website Resources.
+* https://wiki.haskell.org/Web/Cloud[Cloud] - Official Website
+Resources.
+* https://wiki.haskell.org/Web/Deploy[Deploy] - Official Website
+Resources.
+* https://wiki.haskell.org/Web/Libraries[Libraries] - Official Website
+Resources.
+* link:[Interfaces to Frameworks] - Official Website Resources.
+* https://wiki.haskell.org/Web/Databases_and_Persistence[Database and
+Persistence] - Official Website Resources.
+* https://wiki.haskell.org/Web/Testing_and_Verification[Testing and
+Verification] - Official Website Resources.
+* https://wiki.haskell.org/Web/Content_Management[CMS] - Official
+Website Resources for Content Management Systems (CMS).
+* https://ihp.digitallyinduced.com/[IHP: Integrated Haskell Platform] -
+The best way to get started with haskell web dev. —
+* http://hackage.haskell.org/packages/#cat:Web[Web] - a collaborative
+Hackage list of frameworks, libraries, …
++
+
+'''''
++
+_Additional libraries_
+* https://github.com/haskell/HTTP[HTTP] - Haskell HTTP package. Supports
+client-side web programming in Haskell.
+* https://github.com/freizl/hoauth2[hoauth2] - a lightweight oauth2
+haskell binding.
+
+=== Text Processing
+
+* http://pandoc.org/[Pandoc] - is a library for converting from one
+markup format to another, and a command-line tool that uses this
+library.
+
+=== Messaging
+
+* https://github.com/simplex-chat/simplex-chat[SimpleX Chat] - the first
+chat platform that is 100% private by design - it has no access to your
+connection graph!
+* http://stomp.github.io/[Stomp] - is the Simple (or Streaming) Text
+Orientated Messaging Protocol.
+http://hackage.haskell.org/packages/#cat:Stomp[Resources].
+* https://github.com/hreinhardt/amqp[amqp] - client library for AMQP
+servers (currently only RabbitMQ).
+* http://hackage.haskell.org/packages/#cat:IRC[IRC] - a collaborative
+Hackage list for Internet Relay Chat (IRC).
+* http://hackage.haskell.org/packages/#cat:IRC%20Client[IRC Client] - a
+collaborative Hackage list.
+
+=== Languages
+
+* https://wiki.haskell.org/Applications_and_libraries/Interfacing_other_languages[Tools
+for interfacing with other languages] - Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Code%20Generation[Code
+Generation] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:FFI[FFI] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:FFI%20Tools[FFI Tools] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:HTML[HTML] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:Java[Java] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:Javascript[Javascript] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:LaTeX[LaTex] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:LUA[Lua] - a collaborative
+Hackage list.
++
+
+'''''
++
+_Additional languages on top of Haskell_
+* http://fay-lang.org/[Fay] - a proper subset of Haskell that compiles
+to JavaScript.
+* https://github.com/idris-lang/Idris-dev[Idris] - A Dependently Typed
+Functional Programming Language
+* http://leepike.github.io/Copilot/[Copilot] - a (Haskell DSL) stream
+language for generating hard real-time C code.
+* https://wasp-lang.dev/[Wasp] - a simple language for developing
+full-stack Javascript web apps with less code (built with Haskell)
+
+=== Operating Systems
+
+* https://wiki.haskell.org/Applications_and_libraries/Operating_system[Operating
+systems and systems programming] - Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:BSD[BSD] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:Fedora[Fedora] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Gentoo[Gentoo] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Linux[Linux] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:System[System] - a
+collaborative Hackage list.
+
+=== Platforms
+
+* http://hackage.haskell.org/packages/#cat:.NET[.NET] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:Apple[Apple] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:JVM[JVM] - a collaborative
+Hackage list.
+* http://hackage.haskell.org/packages/#cat:Mobile[Mobile] - a
+collaborative Hackage list.
+
+=== Programming
+
+* https://wiki.haskell.org/Applications_and_libraries/Generic_programming[Generic
+Programming] - Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Aspect%20Oriented%20Programming[Aspect
+Oriented Programming] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Generics[Generic Programming]
+- a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Logic[Logic Programming] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Reactivity[Reactive
+Programming] - a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Visual%20Programming[Visual
+Programming] - a collaborative Hackage list.
+
+=== Science
+
+* https://wiki.haskell.org/Applications_and_libraries/Bioinformatics[Bioinformatics]
+- Official Website Resources.
+* https://wiki.haskell.org/Applications_and_libraries/Mathematics[Mathematics
+& Physics] - Official Website Resources.
++
+
+'''''
+* http://hackage.haskell.org/packages/#cat:Chemistry[Chemistry] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Bioinformatics[Bioinformatics]
+- a collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Finance[Finance] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Physics[Physics] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Science[Science] - a
+collaborative Hackage list.
+* http://hackage.haskell.org/packages/#cat:Scientific%20Simulation[Scientific
+Simulation] - a collaborative Hackage list.
+
+=== Streaming Processing
+
+* https://github.com/snoyberg/conduit[Conduit] - a streaming data
+library. http://hackage.haskell.org/packages/#cat:Conduit[Resources].
+* http://hackage.haskell.org/packages/#cat:IO-Streams[IO-Streams] - a
+collaborative Hackage list.
+* https://github.com/Gabriel439/Haskell-Pipes-Library[Pipes] - is a
+clean and powerful stream processing library that lets you build and
+connect reusable streaming components.
+http://hackage.haskell.org/packages/#cat:Pipes[Resources].
+* https://github.com/hstreamdb/hstream[HStreamDB] - The streaming
+database built for IoT data storage and real-time processing.
+
+== Resources
+
+=== Websites
+
+* https://www.haskell.org/[Haskell] - Official Website.
+* https://wiki.haskell.org/Haskell[The Haskell Programming Language] -
+Haskell wiki.
+* http://tryhaskell.org/[Try Haskell] - Haskell Online.
+* https://www.schoolofhaskell.com/[School of Haskell] - Learning
+Haskell.
+
+=== Bloggers
+
+* https://neilmitchell.blogspot.com/[Neil Mitchell] - Neil Mitchell’s
+Haskell Blog.
+
+=== Community
+
+* https://www.haskell.org/community[Community] - Official community
+resources.
+* https://www.reddit.com/r/haskell/[Reddit]
+* http://stackoverflow.com/questions/tagged?tagnames=haskell[Stackoverflow]
+* https://plus.google.com/communities/104818126031270146189[G+]
+* https://wiki.haskell.org/Mailing_lists[Mailing lists]
+* https://wiki.haskell.org/IRC_channel[IRC channels]
+* https://wiki.haskell.org/User_groups[Local user groups]
+* http://planet.haskell.org/[Planet Haskell]
+* https://wiki.haskell.org/Haskell_Communities_and_Activities_Report[Haskell
+Communities and Activities Report]
+
+=== Tutorials
+
+* https://www.haskell.org/documentation[Documentation] - Official
+documentation resources.
+* https://wiki.haskell.org/Learning_Haskell[Learn Haskell] - Wiki
+Learning Resources.
+* https://wiki.haskell.org/Books[Books] &
+https://wiki.haskell.org/Tutorials[Tutorials]
+* https://github.com/bitemyapp/learnhaskell[learnhaskell] - Haskell
+Learning (also for non-English speakers).
+* http://dev.stephendiehl.com/hask/[What I Wish I Knew When Learning
+Haskell] - amazing guide for all kinds of things.
+* http://learnyouahaskell.com/chapters[LearnYouHaskell] - Learn You a
+Haskell for Great Good!
+* http://happylearnhaskelltutorial.com/[Happy Learn Haskell Tutorial] -
+Pain-free, Gradual Haskell Tutorial with cartoon robots!
+* https://www.haskell.org/onlinereport/[Revised report] - Haskell 98
+Language and Libraries. The Revised Report.
+* https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems[H-99] -
+Ninety-Nine Haskell Problems.
++
+### Web Tutorials
+** http://www.shakthimaan.com/posts/2016/01/27/haskell-web-programming/news.html[Introduction
+to Haskell - Web Programming]
+** https://haskell-at-work.com/episodes/2018-04-09-your-first-web-application-with-spock.html[Your
+First Web Application with Spock]
+** https://github.com/scotty-web/scotty/wiki/Scotty-Tutorials-&-Examples[Scotty-Tutorials-&-Examples]
+** https://www.spock.li/tutorials/getting-started[Getting Started]
+** https://www.yesodweb.com/book-1.6[Developing Web Applications with
+Yesod and Haskell]
+
+==== Video Tutorials
+
+* http://www.youtube.com/playlist?list=PLxj9UAX4Em-Ij4TKwKvo-SLp-Zbv-hB4B[Redoing
+Make - Haskell from Scratch]
+* http://www.youtube.com/playlist?list=PLxj9UAX4Em-IBXkvcC3MycLlcxyoi7v8B[Haskell
+- Code Deconstructed]
+* http://www.youtube.com/playlist?list=PL_xuff3BkASMOzBr0hKVKLuSnU4UIinKx[Adventures
+in Haskell - A Calculator]
+* http://www.youtube.com/playlist?list=PLUQzXLQ6jvHL_k3QOMKXehVoZdk-sKtHd[Sed
+implementation in Haskell]
+* http://www.youtube.com/user/LazyCasts[LazyCasts]
+* http://www.youtube.com/watch?v=Li6oaO8x2VY[Haskell Development
+Workflow Demo]
+* https://www.youtube.com/watch?v=NBKnY7Z_w3I&list=PLPqPwGvHPSZB-urE6QFjKYt6AGXcZqJUh[Learn
+You a Haskell] - Video lectures to accompany the book "`Learn You a
+Haskell for Great Good!`"
+* https://github.com/andys8/awesome-haskell-videos[Awesome Haskell
+Videos] - Curated list of Haskell talks and tutorials
+* https://ihpcasts.com/ShowEpisode?episodeId=ab384647-3665-4a36-b5e5-e05fea6c2288[IHP
+Casts] Learn to build type-safe web apps with Haskell and IHP
+
+=== Courses
+
+* https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0[Introduction
+to Functional Programming] - Fall 2014 MOOC on edX by DelftX featuring
+Haskell as the primary language of focus.
+* https://www.futurelearn.com/courses/functional-programming-haskell/[Functional
+Programming in Haskell] - Introductory MOOC to functional programming in
+Haskell by the University of Glasgow.
+* https://haskell.mooc.fi/[Haskell MOOC] - MOOC on functional
+programming that uses Haskell by University of Helsinki.
+
+=== Conferences
+
+* http://www.icfpconference.org/[ICFP] - International Conference on
+Functional Programming.
+https://www.youtube.com/channel/UCwRL68qZFfub1Ep1EScfmBw[Youtube
+channel].
+* https://wiki.haskell.org/Conferences[Conferences] - Official list of
+conferences
+* https://www.youtube.com/playlist?list=PLnqUlCo055hV5dPC-4VWeXzhI8ooeTsVy[Haskell
+Symposium 2015]
+* https://www.youtube.com/playlist?list=PLnqUlCo055hVfNkQHP7z43r10yNo-mc7B[Haskell
+Implementors’ Workshop 2015]
+
+=== Packages
+
+* https://www.stackage.org/[Stackage] - is a stable source of Haskell
+packages, "`Stable Hackage`".
+* http://hackage.haskell.org/[Hackage] - is the Haskell community’s
+central package archive.
+* https://wiki.haskell.org/Applications_and_libraries[Application &
+Libraries] - Official collections and Guide.
+* https://www.haskell.org/hoogle/[Hoogle] - is a Haskell API search
+engine, which allows you to search many standard Haskell libraries by
+either function name, or by approximate type signature.
+* http://hayoo.fh-wedel.de/[Hayoo] - will search all packages from
+Hackage, including all function and type definitions.
+
+=== Best Practices
+
+* https://kowainik.github.io/posts/2019-02-06-style-guide[Haskell Style
+Guide] # License
+
+http://creativecommons.org/publicdomain/zero/1.0/[image:http://i.creativecommons.org/p/zero/1.0/88x31.png[CC0]]
