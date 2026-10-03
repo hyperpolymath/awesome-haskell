@@ -1,0 +1,79 @@
+== Contributing
+
+This repository is an auxiliary list of awesome Haskell links, frameworks,
+libraries and software, and part of the umbrella
+https://github.com/sindresorhus/awesome[awesome] projects. Almost every
+contribution edits `README.adoc`; the rules below keep the list useful and the
+automated checks green.
+
+=== What belongs here
+
+* Software, libraries, tools, frameworks, papers, courses, blogs and
+  communities focused on Haskell as the primary language of interest.
+* Anything you link must exist, be reachable over HTTPS where the project
+  offers it, and document itself well enough that a reader can start from the
+  entry alone.
+* Original work. A link to a mirror, a fork without meaningful change, or a
+  paywalled resource posing as free does not belong here.
+* Dead links are removed on report; unmaintained entries stay while they
+  remain the best or only resource for their niche, and are removed when a
+  better one replaces them.
+
+=== Entry format
+
+Entries are single AsciiDoc bullets inside the matching section of
+`README.adoc`:
+
+    * https://example.org/[Example Tool] - A factual, one-sentence
+      description of what it is, not what it promises.
+
+* One entry per bullet; wrap continuation lines by two spaces as above.
+* The description states what the thing is. Marketing voice, superlatives
+  and "the best" are the maintainer's judgment, not the entry's.
+* Keep entries alphabetical within their section.
+* If you add or rename a section, update the table of contents block at the
+  top of `README.adoc` so every section anchor still resolves.
+
+=== Making a change
+
+. Fork the repository and work on a topic branch off `main`.
+. Keep one entry (or one theme of edits) per pull request; it makes review
+  and reverts both trivial.
+. Check your own links before opening the pull request.
+. Write the commit message in Conventional Commits form — `docs:`, `fix:`,
+  `chore:`, `ci:` are the verbs this repository uses.
+. Open the pull request against `main` and describe what changed and why.
+
+=== Continuous integration
+
+Every pull request and every push to `main` runs the `Governance` workflow
+from the shared estate definition in
+https://github.com/hyperpolymath/standards[hyperpolymath/standards]. Its
+jobs cover code-quality and documentation presence (this file, `README.adoc`
+and `LICENSE` are required), workflow security (SHA-pinned, locked actions
+with SPDX headers), licence consistency and the packaging policy.
+
+The Guix packaging policy is *not applicable* to this repository by design:
+it is a curated list that ships no build artefact, so its profile declares
+neither the `reproducible-build` nor the `container` capability, and the
+policy applies only where one of them is declared. If that ever changes —
+if this repository starts shipping a build — add a real `guix.scm` (or an
+active `Containerfile` as the accepted escape hatch) in the same change that
+declares the capability.
+
+If a check comes back red for a cause outside your diff, do not disable or
+bypass the gate in your pull request: open an issue with the diagnosis and
+acceptance criteria, and keep the pull request scoped to its change.
+
+=== Governance and conduct
+
+Roles, review expectations and the decision process (minor changes by any
+maintainer, major changes needing two approvals) are recorded in
+`GOVERNANCE.adoc`; the active reviewer list is in `MAINTAINERS`. Be factual,
+be brief, and assume good faith.
+
+=== Licence
+
+By submitting a pull request you agree to licence your contribution under
+the terms recorded in the repository `LICENSE` file, per the Licensing
+section of `GOVERNANCE.adoc`.
