@@ -1,0 +1,50 @@
+# SPDX-License-Identifier: CC-BY-SA-4.0
+# SPDX-FileCopyrightText: 2026 Jonathan D.A. Jewell (hyperpolymath) <j.d.a.jewell@open.ac.uk>
+#
+# rsr-profile.a2ml — awesome-haskell's declared RSR capability set.
+#
+# Authored in the A2ML record dialect, matching the shape rsr-template-repo
+# ships. Read by scripts/check-rsr-profile.sh (which resolves the applicable
+# criteria set) and by the Hypatia RSR conformance oracle.
+#
+# WHY THIS FILE EXISTS
+#
+# Two gates read capability declarations:
+#
+#   * 3.2.2 (universal, silver) requires this file to exist at all — it is what
+#     turns the criteria set from "everything" into "what applies here".
+#   * The Guix packaging gate applies ONLY to a repo that declares
+#     `reproducible-build` or `container` (hyperpolymath/standards#1120,
+#     2026-10-01, superseding the blanket "every repo needs packaging" rule that
+#     failed this repo and 85 other docs/proofs libraries).
+#
+# NB: this repo's governance caller still pins a reusable from 2026-08-29, whose
+# packaging job cannot read this file (it reports "capability resolver missing
+# (caller pin predates it)" and treats the repo as declaring nothing — still a
+# pass under the new policy, by the least informative route). The file is what
+# a refreshed runner will read, and what the Hypatia RSR oracle reads today.
+#
+# Declaring nothing is not the same as declaring zero: an absent profile is
+# indistinguishable from an unfinished one. This file states the repo's actual
+# surface so the gates have something to read rather than something to infer.
+#
+# See 0-canon/TEMPLATE-APPLICABILITY-POLICY.adoc in hyperpolymath/standards.
+
+[rsr-profile]
+version = "1.0.0"
+spec = "rsr-criteria-v2"
+# docs-site: README.adoc is published by .github/workflows/pages.yml (Ddraig SSG
+# to GitHub Pages). This repo IS the document; the list is the artefact.
+#
+# Deliberately NOT declared:
+#   reproducible-build, container — an annotated bibliography has no build of
+#   its own to pin or seal (dummy.hs is a flavour file, not a program of
+#   record). Declaring either would be a false capability claim, and the
+#   packaging gate would then rightly demand a guix.scm or Containerfile that
+#   builds nothing.
+#   governance-tier — the AUDIT/AFFIRMATION/MAINTAINERS trio is not carried in
+#   the estate's canonical paths, so claiming the tier would be drift.
+capabilities = ["docs-site"]
+
+[rationale]
+docs-site = "README.adoc + .github/workflows/pages.yml publish this list as a site"
